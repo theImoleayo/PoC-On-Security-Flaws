@@ -61,7 +61,8 @@ Obscured with "---/pages.php?id=123+OR+1909=1909"
  UNION --> /*!50000UNION*/ 
  SELECT --> /*!50000SELECT*/
  and this made it possible to inject the SQL keywords without being searched for by the WAF.
- 
+ This also reveal the columns field type is string. With the vulnerable columns 
+ observed to be columns 5 and 10.
 --------------------------------------------------------------
 --------------------------------------------------------------
 DATABASES DUMPED - PAYLOAD - EXTRACTED DATA
