@@ -11,18 +11,20 @@ This script searches for the `sky130A.magicrc` file within the `/sky130/sky130A/
 ## Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git https://github.com/theImoleayo/PoC-On-Security-Flaws/tree/a218ea919406045ae14146dac45dd527acb65ebb/Magic%20VLSI%20issues)
+   cd "Magic VLSI issues"
    ```
 2. Ensure the script has execution permissions:
    ```bash
-   chmod +x script.sh
+   chmod +x do_magic.sh
    ```
 
 ## Usage
 Run the script using the command:
 ```bash
-./script.sh
+./do_magic.sh
+or try
+bash do_magic.sh
 ```
 
 ### What the Script Does:
